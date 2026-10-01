@@ -1,0 +1,27 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>nuxt/renovate-config-nuxt"
+  ],
+  "minor": {
+    "automerge": true
+  },
+  "patch": {
+    "automerge": true
+  },
+  "pin": {
+    "automerge": true
+  },
+  "baseBranchPatterns": [
+    "main",
+    "v4",
+    "v4-stackblitz",
+    "v4-compat",
+    "v5-nightly",
+    "content",
+    "doc-driven",
+    "layer",
+    "module-devtools",
+    "module"
+  ]
+}
